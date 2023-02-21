@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8"> 
+    <title>Tipos de INPUT</title>
+</head>
+<body>
+    <h1>Tipos de INPUT</h1> 
+    <form action="https://www.example.com">
+        <h3>Texto</h3>
+        Nome: <input type="text" name="nome"><br>
+        E-mail: <input type="email" name="email" placeholder="Digite o seu e-mail" required>
+        <hr>
+
+        <h3>Password</h3>
+        Password: <input type="password" name="psw">
+        <hr>
+
+        <h3>Botões de Radio/selecionar</h3>
+        <input type="radio" name="genero" value="Masculino" checked>Masculino<br>
+        <input type="radio" name="genero" value="Feminino">Feminino<br>
+        <input type="radio" name="genero" value="Outro">Outro
+        <hr>
+
+        <h3>Botão de submit/enviar</h3>
+        <input type="submit" name="botao">
+        <hr>
+
+        <h3>CheckBox/Caixa de Seleção</h3>
+        <input type="checkbox" name="veiculo1" value="Bicicleta">Bicicleta<br>
+        <input type="checkbox" name="veiculo2" value="Motocicleta">Motocicleta<br>
+        <input type="checkbox" name="veiculo3" value="Carro">Carro
+        <hr>
+
+        <h3>Selecionar a cor</h3>
+        <input type="color" name="favcolor">
+        <hr>
+
+        <h3>Data</h3>
+        <input type="date" name="data">
+        <hr>
+
+        <h3>Arquivo</h3>
+        Selecione o arquivo: <input type="file" name="arquivo">
+        <hr>
+
+        <h3>Range de números</h3>
+        <input type="range" name="pontos" min="0" max="10">
+        <hr>
+
+        <h3>Busca</h3>
+        Buscar: <input type="search" name="buscar">
+    </form>
+</body>
+</html>
