@@ -1,0 +1,15 @@
+/* div é o pai e possui a cor azul, logo como herança passa para os seus filhos a cor azul*/
+div {
+    color: blue;
+    border: 2px solid;
+}
+
+/* Aplicando um estilo de cor especifico nos elemtentos li que são filhos de ul que é filho de div (a especificidade (soma de pontos) determina que a cor dos elementos li será vermelha */
+div ul li {
+    color: red;
+}
+
+/* Usando o inherit para herdar a mesma propriedade do pai, no caso a ul vai herdar a propriedade de borda igual a do pai div */
+div ul {
+    border: inherit;
+}
